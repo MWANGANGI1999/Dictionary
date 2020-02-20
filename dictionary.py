@@ -38,13 +38,21 @@ for k,v in student.items():
 #if an item exists then its displays that the item is there
 if "name" in student:
     print('name is there')
+else:
+    print('name is not there')
 #if an item exists then its displays that the item is there
 if "birthday" not in student:
     print('birthday is not there')
+else:
+    print('birthday is there')
 if "location" in student:
     print('location is there')
+else:
+    print('location is not there')
 if "status" not in student:
     print('status is not there')
+else:
+    print('status is there')
 
 #adding an item
 #it add the student registration number to the student information
